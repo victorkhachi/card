@@ -1,0 +1,88 @@
+*{
+    margin: 2px;
+    text-transform: uppercase;
+}
+.body{
+    margin: auto;
+    margin-top: 20%;
+    background:linear-gradient(black,white,gray,yellow,black);
+    width: 50%;
+    max-width: 400px;
+    box-shadow: -2px , -2px , black;
+    min-height: 200px;
+    
+    top: 20%;
+}
+.card{
+    margin: auto;
+    padding-left: 20px;
+}
+::placeholder{
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+.logo{
+    width: 25%;
+    margin: 8px 0;
+    height: 40px;
+    
+}
+.chip{
+    width: 15%;
+    height: 25px;
+    margin-bottom: 5px;
+}
+img{
+width: 100%;
+height: 100%;
+}
+ input{
+    background-color: inherit;
+    border: none;
+    margin: ;
+    display: inline;
+    /* height:10px; */
+
+}
+.chivv{
+    display: flex;
+}
+h4{
+font-size: 8px;
+display: flex;
+flex-direction: column;
+}
+.card-date{
+    display: flex;
+}
+.name-type{
+    display: flex;
+}
+.card-number input{
+    width: 90%;
+}
+.card-type{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: flex-end;
+    margin-right: 20px;
+    font-size: small;
+    width: 100%;
+    
+}
+.ct-container{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    width:40%;
+    max-height: 28px;
+    flex-basis: 40%;
+    margin-bottom: 0;
+    padding-left: ;
+    display: none;
+}
+.date{
+    width: 10%;
+}
